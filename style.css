@@ -1,0 +1,102 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    width: 100%;
+    background-color:hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+main{
+    width: 30%;
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+main img{
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.top{
+    margin-top: 0;
+    letter-spacing: 0.3rem;
+    font-size: 8px;
+    color:  hsl(228, 12%, 48%);
+}
+
+p{
+    line-height: 1.1rem;
+    color: hsl(228, 15%, 66%);
+    font-size: 12px;
+    
+}
+
+main h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+span{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: hsl(158, 36%, 37%);
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 15px;
+    border: 0;
+    border-radius: 4px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: bold;
+}
+
+footer a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: white;
+}
+
